@@ -19,9 +19,9 @@
      <h2>Conoce nuestros sabores:</h2>
 
      <p>Chocolate Espacial ................. $ 150.00</p>
-     <p>Chocolate con Nuez Crocante ........ $ 360.00</p>
+     <p>Nuez Crocante ...................... $ 360.00</p>
      <P>Vainilla ........................... $ 200.00</P>
-     <p>Vainilla con trozos de Chocolate ... $ 280.00</p>
+     <p>Fresa .............................. $ 280.00</p>
      <p>Chesecake .......................... $ 250.00</p>
      <p>Coco ............................... $ 340..00</p>
     
@@ -38,12 +38,12 @@
      <form action="/action_page.php">
         <input type="checkbox" id="sabores1" name="sabores1" value="Chocolate Espacial">
         <label for="sabores1"> Chocolate Espacial</label><br>
-        <input type="checkbox" id="sabores2" name="sabores2" value="Chocolate con Nuez Crocante">
-        <label for="sabores2"> Chocolate con Nuez Crocante</label><br>
+        <input type="checkbox" id="sabores2" name="sabores2" value="Nuez Crocante">
+        <label for="sabores2"> Nuez Crocante</label><br>
         <input type="checkbox" id="sabores3" name="sabores3" value="Vainilla">
         <label for="sabores3"> Vainilla</label><br>
-        <input type="checkbox" id="sabores4" name="sabores4" value="Vainilla con trozos de Chocolate">
-        <label for="sabores4"> Vanilla con trozos de Chocolate</label><br>
+        <input type="checkbox" id="sabores4" name="sabores4" value="Fresa">
+        <label for="sabores4"> Fresa</label><br>
         <input type="checkbox" id="sabores5" name="sabores5" value="Chesecake">
         <label for="sabores5"> Chesecake</label><br>
         <input type="checkbox" id="sabores6" name="sabores6" value="Coco">
@@ -73,12 +73,15 @@
         <input type="number" id="numero1" name="numero1"><br><br>
         <label for="correo1">Correo Eléctronico</label><br>
         <input type="email" id="correo1" name="correo1"><br><br>  
-        <label for="Input1"> Descripción general:</label><br><br>
-        <label for="Input1"> Selección de Sabores:</label><br><br>
-        <label for="Input1"> Selección de Adornos:</label><br><br>
+        <label for="descripcion">Descripción general:</label><br>
+        <input type="text" id="descripcion" name="descripcion"><br><br> 
+        <label for="sabor">Selección de sabor(s):</label><br>
+        <input type="text" id="sabor" name="sabor"><br><br> 
+        <label for="adorno">Selección de adorno(s):</label><br>
+        <input type="text" id="adorno" name="adorno"><br><br> 
         <input type="submit" value="Aceptar">
         <input type="Reset">
     </form>
-
+    <br>
 </body>
 </html>
